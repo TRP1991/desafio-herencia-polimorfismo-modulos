@@ -25,7 +25,7 @@ class Student < Person #Inicio de Herencia, Polimmorfismo y creación de método
     end
 end
 
-class Teacher < Person 
+class Teacher < Person #Inicio de Herencia, Polimmorfismo y creación de métodos
     def talk
         puts "¡Bienvenido a la clase de programación con Ruby!"
     end
@@ -35,7 +35,7 @@ class Teacher < Person
     end
 end
 
-class Parent < Person
+class Parent < Person #Inicio de Herencia, Polimmorfismo y creación de métodos
     def talk 
         puts "Aquí es la reunión de apoderados?"
     end
