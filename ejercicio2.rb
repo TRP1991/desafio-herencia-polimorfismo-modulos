@@ -47,3 +47,10 @@ module Alimentacion
         end
     end
 end
+
+class Animal #Creación clase Animal 
+    attr_reader :nombre #método getter para el atributo nombre
+    def initialize(nombre)
+        @nombre = nombre
+    end
+end
