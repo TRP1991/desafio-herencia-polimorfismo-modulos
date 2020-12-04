@@ -109,8 +109,6 @@ class Abeja < Insecto
 end
 
 
-animal1 = Pinguino.new('Pinguinito').nombre
-habilidad1 = Pinguino.new('Pinguinito').nadar
-alimentacion1 = Pinguino.new('Pinguinito').comer
+animal1 = Pinguino.new('Pinguinito')
 
-puts "Hola soy un #{animal1}, #{habilidad1} y #{alimentacion1}"
+puts "Hola soy un #{animal1.nombre}, #{animal1.nadar} y #{animal1.comer}"
