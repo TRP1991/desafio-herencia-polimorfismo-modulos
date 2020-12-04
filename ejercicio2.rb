@@ -64,3 +64,46 @@ end
 
 class Insecto < Animal
 end
+
+#Creación de clases que heredan de Ave
+class Pinguino < Ave
+    include Habilidades::Nadador, Habilidades::Caminante, Alimentacion::Carnivoro
+end
+
+class Paloma < Ave
+    include Habilidades::Volador, Habilidades::Caminante, Alimentacion::Carnivoro
+end
+
+class Pato < Ave
+    include Habilidades::Nadador, Habilidades::Volador, Habilidades::Caminante,
+    Alimentacion::Carnivoro, Alimentacion::Herbivoro
+end
+
+#Creación de clases que heredan de Mamifero
+class Perro < Mamifero
+    include Habilidades::Caminante, Alimentacion::Carnivoro
+end
+
+class Gato < Mamifero
+    include Habilidades::Caminante, Alimentacion::Carnivoro
+end
+
+class Vaca < Mamifero
+    include Habilidades::Caminante, Alimentacion::Herbivoro
+end
+
+#Creación de clases que heredan de Insecto
+class Mosca < Insecto
+    include Habilidades::Volador, Habilidades::Caminante,
+    Alimentacion::Carnivoro, Alimentacion::Herbivoro
+end
+
+class Maripoza < Insecto
+    include Habilidades::Volador, Habilidades::Caminante,
+    Alimentacion::Herbivoro
+end
+
+class Abeja < Insecto
+    include Habilidades::Volador, Habilidades::Caminante,
+    Alimentacion::Herbivoro
+end
