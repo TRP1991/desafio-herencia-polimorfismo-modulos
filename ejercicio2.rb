@@ -113,4 +113,4 @@ animal1 = Pinguino.new('Pinguinito').nombre
 habilidad1 = Pinguino.new('Pinguinito').nadar
 alimentacion1 = Pinguino.new('Pinguinito').comer
 
-puts "Hola soy un #{animal1}, #{habilidad1} y #{alimentacion1}
+puts "Hola soy un #{animal1}, #{habilidad1} y #{alimentacion1}"
