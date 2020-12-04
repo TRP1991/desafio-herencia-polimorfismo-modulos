@@ -54,3 +54,13 @@ class Animal #Creación clase Animal
         @nombre = nombre
     end
 end
+
+#Creación de clases que heredan de Animal 
+class Ave < Animal
+end
+
+class Mamifero < Animal
+end
+
+class Insecto < Animal
+end
